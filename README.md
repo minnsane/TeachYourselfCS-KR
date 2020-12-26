@@ -72,6 +72,6 @@ SICP가 별로였다면, *Composing Programs*를 시도해 보세요. 여전히 
    
 간결과 응집을 위해, Nand2Tetris는 깊이를 포기하였습니다. 특히, 모던 컴퓨터 구조에서 가장 중요한 두가지 컨셉인 파이프라인과 메모리 계층 구조는 이 책에서 거의 찾아볼 수 없죠.
     
-Nand2Tetris의 내용이 편해졌다면, 다시 CS:APP로 돌아오거나, 훌륭한 요즘 교과서인 Patterson과 Henessy의 *[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* 를 보기를 추천합니다. 이 책의 모든 부분이 중요하진 않고, Berkeley의 [CS61C 코스](http://inst.eecs.berkeley.edu/~cs61c/sp15/)의 "Great Ideas in Computer Architecture"를 읽어보기를 추천합니다. 강의 노트와 자료는 인터넷에서 찾을 수 있고, 이전 강의들은 [인터넷 아카이브](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)에 있습니다.
+Nand2Tetris의 내용이 편해졌다면, 다시 CS:APP로 돌아오거나, 훌륭한 요즘 교과서인 Patterson과 Henessy의 *[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* 를 보기를 추천합니다. 이 책의 모든 부분이 중요하진 않고, Berkeley의 [CS61C 코스](http://inst.eecs.berkeley.edu/~cs61c/sp15/)의 "Great Ideas in Computer Architecture"를 읽어보기를 추천합니다. 강의 노트와 연구는 인터넷에서 찾을 수 있고, 이전 강의들은 [인터넷 아카이브](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)에 있습니다.
 
 
