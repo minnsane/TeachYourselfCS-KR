@@ -1,5 +1,7 @@
 # 컴퓨터과학 스스로 학습하기
 
+원문 : **[Teach Yourself Computer Science](https://teachyourselfcs.com/)**
+
 노트 : 이 가이드는 2020년 5월에 확장 업데이트 되었습니다. 이전 버전은 [여기](https://teachyourselfcs.com/2016/)를 참조해주세요.
 
 만약 당신이 독학 엔지니어나 부트캠프 졸업생이라면, 컴퓨터 과학을 배우는 것도 놓쳐서는 안됩니다.   
@@ -72,7 +74,7 @@ SICP가 별로였다면, *Composing Programs*를 시도해 보세요. 여전히 
    
 간결과 응집을 위해, Nand2Tetris는 깊이를 포기하였습니다. 특히, 모던 컴퓨터 구조에서 가장 중요한 두가지 컨셉인 파이프라인과 메모리 계층 구조는 이 책에서 거의 찾아볼 수 없죠.
     
-Nand2Tetris의 내용이 편해졌다면, 다시 CS:APP로 돌아오거나, 훌륭한 요즘 교과서인 Patterson과 Henessy의 *[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* 를 보기를 추천합니다. 이 책의 모든 부분이 중요하진 않고, Berkeley의 [CS61C 코스](http://inst.eecs.berkeley.edu/~cs61c/sp15/)의 "Great Ideas in Computer Architecture"를 읽어보기를 추천합니다. 강의 노트와 연구는 인터넷에서 찾을 수 있고, 이전 강의들은 [인터넷 아카이브](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)에 있습니다.
+Nand2Tetris의 내용이 편해졌다면, 다시 CS:APP로 돌아오거나, 훌륭한 요즘 교재인 Patterson과 Henessy의 *[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* 를 보기를 추천합니다. 이 책의 모든 부분이 중요하진 않고, Berkeley의 [CS61C 코스](http://inst.eecs.berkeley.edu/~cs61c/sp15/)의 "Great Ideas in Computer Architecture"를 읽어보기를 추천합니다. 강의 노트와 연구는 인터넷에서 찾을 수 있고, 이전 강의들은 [인터넷 아카이브](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)에 있습니다.
 
 ### 알고리즘과 자료구조
 우리는 공통 알고리즘과 자료 구조에 정통한 것이 컴퓨터 과학 교육의 가장 중요한 부분 중 하나라는 것에 대해 수년에 걸쳐 공감하였습니다. 이는 모든 학습 영역에서 통용되는 일반적인 문제 풀이 능력을 기르는 것에도 큰 도움이 되죠.
@@ -90,7 +92,7 @@ Nand2Tetris의 내용이 편해졌다면, 다시 CS:APP로 돌아오거나, 훌�
     
 CS를 위한 수학에 있어 가장 관련 깊은 영역은 "이산수학"인데, "이산"은 "연속"의 반댓말이며 미적분학에서 벗어난 흥미로운 응용 수학의 집합체와 같습니다. 모호한 정의를 고려하면, "이산수학"의 모든 부분을 이해하려고 하는 것은 의미 없습니다. 좀 더 현실적인 목표는 논리학, 조합론과 확률, 집합 이론, 그래프 이론, 유익한 암호학 이론 몇개를 익히는 것 입니다. 선형대수는 컴퓨터 그래픽스와 머신 러닝에서의 중요성을 고려하면 또다른 공부 해 볼만한 분야입니다.
     
-이산수학 공부의 시작은 [László Lovász의 강의노트](http://www.cs.elte.hu/~lovasz/dmbook.ps) 세트를 추천합니다. Lovász 교수는 접근하기 쉽고 학습적인 컨텐츠를 잘 만들어 냈고, 이는 교과서보다 더 좋은 시작 포인트를 제공합니다. 
+이산수학 공부의 시작은 [László Lovász의 강의노트](http://www.cs.elte.hu/~lovasz/dmbook.ps) 세트를 추천합니다. Lovász 교수는 접근하기 쉽고 학습적인 컨텐츠를 잘 만들어 냈고, 이는 교재보다 더 좋은 시작 포인트를 제공합니다. 
     
 심화 학습을 위해, *[Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)* 와 책 동명의 MIT 강의 노트를 추천합니다. [비디오 강의](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)도 온라인에서 무료로 제공되며, 이산수학 학습을 위해 추천합니다.
     
@@ -112,16 +114,77 @@ OSTEP을 다 봤으면, 우리는 "{ㅇㅇ운영체제} 살펴보기" 같은 이
     
 비디오 강의를 선호하는 사람들에게는 예전엔 스탠포드의 MOOC 플랫폼인 Lagunita를 통해 제공되었지만, 슬프게도 이제는 유튜브의 비공식적인 플레이리스트로밖에 볼 수 없는 스탠포드의 *[Introduction to Computer Networking course](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z)* 를 추천합니다.
 
-*** 데이터베이스
-데이터베이스 시스템은 다른 주제보다 더 독학하기 힘듭니다. 꽁꽁 숨겨진 상업적인 인센티브를 위한 아이디어가 많은 상대적으로 최신(1970년대 이후) 학문이죠. 추가적으로, 많은 잠재적인 훌륭한 교과서 저자들은 회사로 들어갔거나 창업하기를 선호하였습니다.
+### 데이터베이스
+데이터베이스 시스템은 다른 주제보다 더 독학하기 힘듭니다. 꽁꽁 숨겨진 상업적인 인센티브를 위한 아이디어가 많은 상대적으로 최신(1970년대 이후) 학문이죠. 추가적으로, 많은 잠재적인 훌륭한 교재 저자들은 회사로 들어갔거나 창업하기를 선호하였습니다.
     
-이런 상황을 고려해 우리는 독학생들이 교과서 보다는 Berkeley의 Joe Hellerstein의 데이터베이스 강의인 [CS186 강의 녹화본](https://www.youtube.com/user/CS186Berkeley/videos)으로 시작한 후 책들을 읽어보기를 추천합니다.
+이런 상황을 고려해 우리는 독학생들이 교재보다는 Berkeley의 Joe Hellerstein의 데이터베이스 강의인 [CS186 강의 녹화본](https://www.youtube.com/user/CS186Berkeley/videos)으로 시작한 후 논문들을 읽어보기를 추천합니다.
     
 입문자들에게 추천할만한 책은 관계형 데이터베이스(RDBMS)가 어떻게 동작하는지를 높은 수준으로 풀어낸 "[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)"를 추천합니다. 이는 추후 공부하는데 유용한 뼈대가 될 것 입니다.
     
 소위 데이터베이스 "[레드북](http://www.redbook.io/)"으로 불리는 *Readings in Database Systems* 은 Peter Bailis, Joe Hellerstein와 Michael Stonebraker가 엮어내고 편집한 컬렉션입니다. CS186의 내용에서 더 심화한 내용을 학습하고 싶다면, 레드북이 바로 다음 스텝입니다.
     
-만약 꼭 입문 교과서를 보고 싶다면, Ramakrishnan와 Gehrke가 쓴 *[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)* 를 추천합니다. 많은 심화 학생들에게, Jim Gray의 고전 *[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)* 도 가치가 있지만, 입문서로는 추천하지 않습니다.
+만약 꼭 입문 교재를 보고 싶다면, Ramakrishnan와 Gehrke가 쓴 *[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)* 를 추천합니다. 많은 심화 학생들에게, Jim Gray의 고전 *[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)* 도 가치가 있지만, 입문서로는 추천하지 않습니다.
 
 마지막으로, 데이터 모델링은 데이터베이스로 일할 때 가장 괄시받고 대충 는 영역입니다. 우리의 추천은 *[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)* 입니다.
 
+### 언어와 컴파일러
+대부분의 프로그래머는 언어를 배우는 반면, 대부분의 컴퓨터 과학자들은 언어에 대해 배웁니다. 이는 컴퓨터 과학자들에게 프로그래머 대비 뚜렷한 이점을 줍니다. 하물며 프로그래밍 영역에서도요! 이들의 지식은 일반화됩니다. 이들은 특정 언어를 배우기만 한 사람들에 비해 새로운 언어의 동작을 좀 더 깊이 빨리 이해할 수 있습니다.
+    
+우리가 추천하는 입문 교재는 인터넷에서 볼 수 있는 Bob Nystrom의 훌륭한 *[Crafting Interpreters](https://craftinginterpreters.com/contents.html)* 입니다. 이 책은 잘 정리되어 있고, 대단히 재미있으며 언어와 언어도구를 더 잘 이해하고 싶어하는 것이 주요 목표인 사람에게 잘 맞습니다. 당신의 흥미를 유지시키는 어떤 "도전"이던 시도하며 모든 내용을 시간내어 살펴보기를 추천합니다.
+      
+가장 전통적인 추천은 "드래곤북"이라고 불리는 *[Compilers: Principles, Techniques & Tools(번역본: 컴파일러)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)* 입니다. 아쉽게도, 이 책은 독학용이라기 보다는 1-2학기용 코스를 위한 주제가 있는 강사용입니다.
+
+드래곤북을 보기로 결정했다면, 가능한 멘토와 함께, 중요한 주제들을 선별하는것이 필요합니다. 사실, 우리가 추천하는 드래곤북 활용법은, 비디오 강의의 보충 교재로 활용하는 것입니다. [edX의 Alex Aiken의 강의](https://www.edx.org/course/compilers)를 추천합니다.
+
+### 분산시스템
+컴퓨터 수가 증가하면서, 영역도 넓어졌습니다. 이전의 사업들이 큰 메인프레임을 사려했던 반면, 이제는 아주 작은 어플리케이션도 다양한 기기에서 실행되는것이 일반적입니다. 분산시스템은 이러한 경향에 관련된 장단점을 설명하는 학문입니다.
+
+독학용 책으로는 Martin Kleppmann의 *[Designing Data-Intensive Applications(이하 DDIA)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)* 를 추천합니다. DDIA는 전통 교재보다 훨씬 뛰어나며 어쨌거나 깊이나 디테일을 포기하고 싶지 않은 실용주의자들을 위해 고안되어 가독성이 뛰어납니다.
+
+좀 더 전통적인 책을 찾는, 혹은 온라인에서 무료로 볼 수 있는 책을 선호하는 사람들에게는 Maarten van Steen와 Andrew Tanenbaum의 *[Distributed Systems, 3rd Edition](https://www.distributed-systems.net/index.php/books/ds3/)* 를 추천합니다.
+
+비디오 강의를 선호하는 사람들에게는, 온라인에서 찾아볼 수 있는 훌륭한 Robert Morris의 대학원 강의인 [MIT의 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)와 [자료](https://pdos.csail.mit.edu/6.824/schedule.html)를 추천합니다.
+
+교재나 보조자료를 뭘 선택했던, 분산시스템을 공부하려면 논문을 읽는 것은 필수입니다. 추천 리스트를 참조하시고, 지역 [Papers We Love](https://paperswelove.org/chapter/seoul/) 챕터에 참여하시기를 추천합니다.
+
+## 자주 묻는 질문
+#### 이 가이드의 대상은 누구인가요?
+독학 엔지니어, 부트캠프 졸업생 혹은 선행하는 고등학교 졸업생, 혹은 대학 강의를 보조할 독학 컨텐츠를 찾는 대학생을 염두에 두었습니다. 이 과정을 언제 시작해야 하냐는 질문은 전적으로 개인에 달렸으나, 대부분의 사람들은 CS 이론을 깊이 이해하기 전에 직업 경험을 갖는 경향이 있습니다. 예를 들어, 직장에서 데이터베이스로 일하는 사람들이 데이터베이스 시스템을 공부하고 싶어하며, 한 두개의 웹 프로젝트를 한 사람들이 컴퓨터 네트워킹을 좋아합니다.
+
+#### AI/그래픽/ㅇㅇㅇ는요?
+우리는 모든 숙련된 소프트웨어 엔지니어가 전공이나 산업에 관계 없이, 하지만 시스템에 집중하여 알아야 할 컴퓨터 과학 주제들로 목록을 한정지었습니다. 경험에 의하면, 이것들이 독학 엔지니어들과 부트캠프 졸업생들에게 가장 투자대비 얻을 것이 많은 주제이며, 추후 학습에 단단한 기반이 됩니다. 결과적으로, 교재나 논문을 더 쉽게 고를수 있고 다른 가이드 없이 주요 개념을 익힐 수 있을 것입니다. 여기 그 "선택과목"에 대한 우리의 몇몇 입문용 추천입니다:
+* 인공지능 : [Berkeley의 인공지능 입문 과정](http://ai.berkeley.edu/)의 비디오 강의를 듣고 Pacman 프로젝트를 완성하세요. 교재로는, Russel과 Norvic의 *Artificial Intelligence: A Modern Approach* 를 추천합니다.
+* 머신러닝 : Andrew Ng의 Coursera 과정을 들으세요. 인내심있게, 딥러닝의 새로운 주제들을 배우기 전에 기본에 대해 확실히 익힐 수 있도록 하세요.
+* 컴퓨터 그래픽 : [Berkeley의 CS 184](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html) 컨텐츠를 살펴보고, 교재로는 [Computer Graphics: Principles and Practice](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528)를 추천합니다.
+
+#### 추천하신 순서가 꼭 따라야 하나요?
+현실적으로, 모든 주제들이 다 많이 공통되는 부분이 있고, 서로 서로 영향을 미칩니다. 예를 들어 이산수학과 알고리즘의 관계를 봅시다. 수학을 공부하는 것이 알고리즘을 더 심화있게 이해하는데 도움을 주고, 알고리즘을 배우는 것은 이산수학에 동기와 맥락을 부여할 것입니다. 이상적으로, 이 주제들을 커리어동안 여러번 다시 훑어보세요.    
+    
+마찬가지로, 우리가 추천하는 순서는 단순히 *시작하기 위해서* 입니다. 만약 어떤 이유로 다른 순서로 공부하고 싶다면, 그렇게 하세요. 우리 생각에 중요한 "선후관계"는, 운영체제나 데이터베이스 전에 컴퓨터 구조를 배우는 것이며, 분산시스템을 배우기 전에 네트워킹과 운영체제를 익히는 것입니다.
+
+#### Open Source Society나 freeCodeCamp의 커리큘럼과 다른점은 뭔가요?
+이 가이드가 2016년에 처음 쓰여졌을 때, 이 [OSS 가이드](https://github.com/open-source-society/computer-science)는 주제도 너무 많고, 별로인 컨텐츠도 소개하였으며, 어떤 과정이 왜 또는 어떤 면이 가치 있는지에 대한 이론적 해석이나 가이드도 없었습니다. 우리는 소프트웨어 엔지니어라면, 전공에 관계 없이 반드시 알아야할 과정들로 리스트를 제한하기 위해 애썼으며, 왜 각각의 과정들이 포함되었는지 이해시키려고 하였습니다. 향후 몇년간, OSS 가이드는 발전해왔지만, 이 가이드가 좀 더 명확하고 결집된 가이드를 제공한다고 생각합니다.
+
+freeCodeCamp는 주로 컴퓨터 과학이 아닌 프로그래밍에 집중합니다. 왜 컴퓨터 과학을 배워야 하는지 궁금하다면, [위](#왜-컴퓨터-과학을-배워야-하는가?)를 참조하세요. 만약 처음 프로그래밍을 배우는거라면, 먼저 거기에 집중하고 1-2년 후에 다시 이 가이드를 참조하는 것을 추천합니다.
+
+#### ㅇㅇ 언어는요?
+특정 언어를 배우는 것은 컴퓨터 과학의 특정 분야를 배우는것과는 아예 다른 얘기입니다.(언어 하나를 배우는 것이 더 쉽고 덜 가치 있죠.) 당신이 이미 몇몇 언어를 알고 있다면, 이 가이드를 따라 배운 언어를 사이사이에 매워 넣거나 나중을 위해 내버려 두는것을 강력하게 추천합니다. 당신이 프로그래밍을 잘 배워놨다면(*Structure and Interpretation of Computer Programs* 같은 걸로), 그리고 특히 컴파일러를 잘 익혔다면, 새로운 언어의 기본을 익히는데 주말 정도면 충분하여 직장에서는 라이브러리/도구/에코시스템을 익힐 수 있을 것입니다.
+
+#### 요즘 뜨는 ㅇㅇ 기술은요?
+어떤 단독 기술도 학습의 주요 파트가 되어 배워야 할 만큼 중요하지 않습니다. 반면에, 당신이 새로운 것을 배우고 싶어한 다는 것은 훌륭합니다. 팁은 그 요즘 뜨는 기술이 큰 그림에 어떻게 맞는지 살피기 전에 특정기술의 기반 분야나 개념으로 돌아와 심도 있게 학습하는 것입니다.
+
+#### 왜 아직도 SICP를 추천하나요?
+그냥 한번 시도해 보세요. 어떤 사람들은 SICP가 완전 쩌는, 다른 책에서는 거의 찾아볼 수 없는 특성을 가졌다고 생각합니다. 만약에 별로였다면, 다른 것들을 먼저 시도해본 후 다시 SICP로 돌아올 수도 있죠.
+
+#### 왜 아직도 드래곤북을 추천하나요?
+드래곤북은 여전히 컴파일러를 위한 가장 완전한 싱글 컨텐츠입니다. 이 책이 파싱과 같은 요즘 트렌드엔 맞지 않는 특정 주제들을 과하게 강조해 나쁜 평가를 받긴 합니다. 중요한 건, 이 책은 처음부터 끝까지 다 보라고 만들어진게 아니라, 강사들이 강의를 구성할 때 이용할 수 있도록 충분한 매터리얼을 제공하는 것입니다. 비슷하게, 독학생들도 책의 이점들만 취하거나, 강사들이 공개 강의에서 공유한 과정개요를 참조할 수도 있습니다.
+
+#### 책들은 어떻게 싸게 구할 수 있나요?
+우리가 추천한 책들은, 저자들에게 감사하게도, 온라인에서 많이 찾아볼 수 있습니다. 그렇지 않은 것들은, 예전 에디션의 중고책을 사기를 추천합니다. 보통 교재가 여러 에디션이 있으면, 이전 에디션도 꽤 볼만 합니다. 가격차이가 10배 난대도, 새로운 에디션이 이전 것보다 10배 좋거나 한게 아니더라구요!
+
+#### 누가 이 가이드를 썼나요?
+이 가이드는 본래 [Oz Nova](https://twitter.com/oznova_)와 [Myles Byrne](https://twitter.com/quackingduck)가 썼고, Oz가 2020년에 업데이트했습니다. 이 가이드는 샌프란시스코의 소규모 그룹과 온라인 라이브에서 1000명이 넘는 독학 엔지니어들과 부트캠프 졸업생들을 가르쳤던 경험에 의거하였습니다.
+
+우리는 당신이 위의 주제들을 충분한 시간과 동기만 있다면 충분히 독학할 수 있을거라 확신합니다. 하지만 좀 더 인텐시브하고, 구조적이며, 교수자가 이끄는 프로그램을 선호한다면, 우리의 [Computer Science Intensive](https://bradfieldcs.com/csi/) 코스도 괜찮습니다. 우리는 **[절대](https://ozwrites.com/masters/)** 석사학위를 따는 것을 추천하지 않습니다.
+
+이 가이드에 대한 업데이트나 컴퓨터 과학 뉴스와 리소스를 받아보고 싶은 사람은, Bradfield의 메일링 리스트에 참여하세요. [원문 페이지](https://teachyourselfcs.com/)의 최하단에서 구독할 수 있습니다.
