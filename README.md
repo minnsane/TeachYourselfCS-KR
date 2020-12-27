@@ -22,7 +22,7 @@
 |[프로그래밍](#프로그래밍)|재귀 같은 걸 "완전히 이해하지는 못한" 사람이 되지 마세요.|Structure and Interpretation of Computer Programs|Brian Harvey’s Berkeley CS 61A|
 |[컴퓨터구조](#컴퓨터구조)|컴퓨터가 실질적으로 어떻게 작동하는 지에 관한 확실한 멘탈모델이 없다면, 더 높은 단계의 추상화는 다루기 힘들겁니다.|Computer Systems: A Programmer's Perspective|Berkeley CS 61C|
 |[알고리즘과 자료구조](#알고리즘과-자료구조)|스택, 큐, 트리나 그래프 같은 항상 보이는 자료구조에 대한 이해가 없다면, 문제 풀이는 할 수 없을 것입니다.|The Algorithm Design Manual|Steven Skiena’s lectures|
-|[CS를 위한 수학](#컴퓨터--위한-수학)|컴퓨터 과학이 본래 응용수학의 탈주 브랜치인만큼, 수학을 배워 경쟁력을 높일 수 있습니다.|Mathematics for Computer Science|Tom Leighton’s MIT 6.042J|
+|[CS를 위한 수학](#컴퓨터-과학을-위한-수학)|컴퓨터 과학이 본래 응용수학의 탈주 브랜치인만큼, 수학을 배워 경쟁력을 높일 수 있습니다.|Mathematics for Computer Science|Tom Leighton’s MIT 6.042J|
 |[운영체제](#운영체제)|당신이 짠 코드 대부분은 운영체제에 의해 실행되니, 어떻게 상호작용하는지 알아야합니다.|Operating Systems: Three Easy Pieces|Berkeley CS 162|
 |[컴퓨터 네트워킹](#컴퓨터-네트워킹)|인터넷은 매우 중요해졌습니다. 어떻게 동작하는지 이해하고 그 엄청난 잠재력을 깨워보세요.|Computer Networking: A Top-Down Approach|Stanford CS 144|
 |[데이터베이스](#데이터베이스)|데이터베이스는 대부분의 중요한 프로그램의 핵심이지만, 어떻게 동작하는지 제대로 이해하는 사람은 거의 없습니다.|Readings in Database Systems|Joe Hellerstein’s Berkeley CS 186|
