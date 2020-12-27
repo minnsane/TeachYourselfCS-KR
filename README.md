@@ -20,7 +20,7 @@
 |[프로그래밍](#프로그래밍)|재귀 같은 걸 "완전히 이해하지는 못한" 사람이 되지 마세요.|Structure and Interpretation of Computer Programs|Brian Harvey’s Berkeley CS 61A|
 |[컴퓨터구조](#컴퓨터구조)|컴퓨터가 실질적으로 어떻게 작동하는 지에 관한 확실한 멘탈모델이 없다면, 더 높은 단계의 추상화는 다루기 힘들겁니다.|Computer Systems: A Programmer's Perspective|Berkeley CS 61C|
 |[알고리즘과 자료구조](#알고리즘과-자료구조)|스택, 큐, 트리나 그래프 같은 항상 보이는 자료구조에 대한 이해가 없다면, 문제 풀이는 할 수 없을 것입니다.|The Algorithm Design Manual|Steven Skiena’s lectures|
-|[CS를 위한 수학](#CS를-위한-수학)|컴퓨터 과학이 본래 응용수학의 탈주 브랜치인만큼, 수학을 배워 경쟁력을 높일 수 있습니다.|Mathematics for Computer Science|Tom Leighton’s MIT 6.042J|
+|[CS를 위한 수학](#컴퓨터--위한-수학)|컴퓨터 과학이 본래 응용수학의 탈주 브랜치인만큼, 수학을 배워 경쟁력을 높일 수 있습니다.|Mathematics for Computer Science|Tom Leighton’s MIT 6.042J|
 |[운영체제](#운영체제)|당신이 짠 코드 대부분은 운영체제에 의해 실행되니, 어떻게 상호작용하는지 알아야합니다.|Operating Systems: Three Easy Pieces|Berkeley CS 162|
 |[컴퓨터 네트워킹](#컴퓨터-네트워킹)|인터넷은 매우 중요해졌습니다. 어떻게 동작하는지 이해하고 그 엄청난 잠재력을 깨워보세요.|Computer Networking: A Top-Down Approach|Stanford CS 144|
 |[데이터베이스](#데이터베이스)|데이터베이스는 대부분의 중요한 프로그램의 핵심이지만, 어떻게 동작하는지 제대로 이해하는 사람은 거의 없습니다.|Readings in Database Systems|Joe Hellerstein’s Berkeley CS 186|
@@ -74,4 +74,54 @@ SICP가 별로였다면, *Composing Programs*를 시도해 보세요. 여전히 
     
 Nand2Tetris의 내용이 편해졌다면, 다시 CS:APP로 돌아오거나, 훌륭한 요즘 교과서인 Patterson과 Henessy의 *[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* 를 보기를 추천합니다. 이 책의 모든 부분이 중요하진 않고, Berkeley의 [CS61C 코스](http://inst.eecs.berkeley.edu/~cs61c/sp15/)의 "Great Ideas in Computer Architecture"를 읽어보기를 추천합니다. 강의 노트와 연구는 인터넷에서 찾을 수 있고, 이전 강의들은 [인터넷 아카이브](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_)에 있습니다.
 
+### 알고리즘과 자료구조
+우리는 공통 알고리즘과 자료 구조에 정통한 것이 컴퓨터 과학 교육의 가장 중요한 부분 중 하나라는 것에 대해 수년에 걸쳐 공감하였습니다. 이는 모든 학습 영역에서 통용되는 일반적인 문제 풀이 능력을 기르는 것에도 큰 도움이 되죠.
+    
+세상엔 수백개의 책이 있지만, 우리의 추천은 Steven Skiena가 쓴 *[The Algorithm Design Manual](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)* 입니다. Skiena는 확실히 알고리즘 문제 풀이를 사랑하며 그의 학생과 독자들에게 같은 열정을 키우게 하는데 성공하였습니다. 우리 의견은, CLRS와 Sedgewick과 같은 더 많이 추천되는 책들은 주로 실용적인 문제풀이 학습하는 사람들에게는 너무 무거운 경향이 있습니다. 
+    
+비디오 강의를 선호하는 사람들은 [Skiena의 무료 온라인 강의](https://www.youtube.com/watch?v=A2bFN3MyNDA&list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp)를 보세요. 우리는 [Coursera](https://www.coursera.org/specializations/algorithms)나 [다른데](http://timroughgarden.org/videos.html)서 볼 수 있는 Tim Roughgarden의 강의도 매우 좋아합니다. Skiena 강의와 Roughgarden의 강의에 대한 선호는 개인 취향에 따릅니다. 사실, 수십개의 다른 좋은 매터리얼도 있으니, 만약 좋아하는걸 찾았다면, 그걸로 공부하시기 바랍니다!
+    
+실습을 위해, 우리는 [Leetcode](https://leetcode.com/)의 문제풀이를 추천합니다. 이 사이트에는 흥미로운 문제들과 함께 멋진 솔루션과 토론을 볼 수 있어요. 유수의 소프트웨어 회사들의 기술 면접에서 널리 사용되는 문제들에 대한 내 실력도 체크할 수 있습니다. 공부하면서 100개 정도의 랜덤 Leetcode 문제들을 풀어보기를 추천합니다.
+    
+마지막으로, 일반적은 문제 해결에 있어서 훌륭하고 독창적인 가이드인 *[How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)* 을 강력 추천합니다. 이 책은 수학에 뿐만 아니라 컴퓨터 과학에도 적용 가능합니다.
+     
+### 컴퓨터 과학을 위한 수학
+어떤면에서, 컴퓨터 과학은 응용 수학의 한 부분이 아주 커진 것과 같습니다. 많은 소프트웨어 엔지니어들이 이를 무시하려 하지만(어느정도는 성공한 듯 하지만), 우리는 정공법으로 공부하여 받아들이기를 추천합니다. 이걸 성공하면 다른 사람들에 비해 엄청난 경쟁력을 갖추게 될 것입니다.
+    
+CS를 위한 수학에 있어 가장 관련 깊은 영역은 "이산수학"인데, "이산"은 "연속"의 반댓말이며 미적분학에서 벗어난 흥미로운 응용 수학의 집합체와 같습니다. 모호한 정의를 고려하면, "이산수학"의 모든 부분을 이해하려고 하는 것은 의미 없습니다. 좀 더 현실적인 목표는 논리학, 조합론과 확률, 집합 이론, 그래프 이론, 유익한 암호학 이론 몇개를 익히는 것 입니다. 선형대수는 컴퓨터 그래픽스와 머신 러닝에서의 중요성을 고려하면 또다른 공부 해 볼만한 분야입니다.
+    
+이산수학 공부의 시작은 [László Lovász의 강의노트](http://www.cs.elte.hu/~lovasz/dmbook.ps) 세트를 추천합니다. Lovász 교수는 접근하기 쉽고 학습적인 컨텐츠를 잘 만들어 냈고, 이는 교과서보다 더 좋은 시작 포인트를 제공합니다. 
+    
+심화 학습을 위해, *[Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)* 와 책 동명의 MIT 강의 노트를 추천합니다. [비디오 강의](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/)도 온라인에서 무료로 제공되며, 이산수학 학습을 위해 추천합니다.
+    
+선형대수는 [선형대수 기초](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) 강의로 시작하여 Gilbert Strang의 [책](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/)과 [강의](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)로 진행하기를 추천합니다.
+    
+### 운영체제
+*[Operating System Concepts(번역본: 운영체제)](https://www.amazon.com/dp/1118063333/)*(속칭 "공룡책")와 *[Modern Operating Systems(번역본: 운영체제론)](https://www.amazon.com/dp/013359162X/)* 은 운영체제의 "고전"입니다. 두 책 모두 명백함의 부족과 학생들에게 불친절한 내용으로 비판을 받고 있죠.
+    
+*Operating Systems: Three Easy Pieces(번역본: 운영체제 아주 쉬운 세가지 이야기, 이하 OSTEP)* 는 인터넷에서 [무료로 찾아볼 수 있는](http://pages.cs.wisc.edu/~remzi/OSTEP/) 좋은 대안입니다. 이 책의 구조와 가독성이 특히 좋고, 문제들은 풀어 볼 가치가 있습니다. 
+    
+OSTEP을 다 봤으면, 우리는 "{ㅇㅇ운영체제} 살펴보기" 같은 이름의 책으로 특정 운영체제의 설계 결정(design decisions)을 탐구해보기를 추천합니다. 예를들어, *[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)*, *[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)* 와 *[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)* 같은 책으로 말입니다. Linux용으로는 Robert Love의 환상적인 [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468)를 추천합니다.
+    
+운영체제에 대한 이해를 정리하는 가장 좋은 방법은 작은 커널의 코드를 읽어보고 기능을 더해보는 것입니다. 그 중 [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html)는 ANSI C와 x86의 Unix V6 포트로, MIT 강의를 위해 유지되고 있습니다. OSTEP은 추후 프로젝트를 위한 엄청난 아이디어로 가득찬 [xv6 연구](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf)를 부록으로 실었습니다.
+    
+*** 컴퓨터 네트워킹
+많은 소프트웨어 엔지니어링이 웹서버와 클라이언트에 있다는 것을 고려하면, 당장 가장 가치있는 컴퓨터과학 중 하나는 컴퓨터 네트워킹입니다. 네트워크를 체계적으로 공부한 독학생들은 수년간 들어왔던 용어, 개념과 프로토콜을 드디어 이해할 수 있을겁니다.
+    
+우리가 가장 좋아하는 책은 *[Computer Networking: A Top-Down Approach(번역본: 컴퓨터 네트워킹 하향식 접근)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)* 입니다. 이 책의 미니 프로젝트들과 문제풀이는 해볼 가치가 있고, 책에서 온라인에 제공한 ["Wireshark labs"](http://www-net.cs.umass.edu/wireshark-labs/)가 특히 좋습니다.
+    
+비디오 강의를 선호하는 사람들에게는 예전엔 스탠포드의 MOOC 플랫폼인 Lagunita를 통해 제공되었지만, 슬프게도 이제는 유튜브의 비공식적인 플레이리스트로밖에 볼 수 없는 스탠포드의 *[Introduction to Computer Networking course](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z)* 를 추천합니다.
+
+*** 데이터베이스
+데이터베이스 시스템은 다른 주제보다 더 독학하기 힘듭니다. 꽁꽁 숨겨진 상업적인 인센티브를 위한 아이디어가 많은 상대적으로 최신(1970년대 이후) 학문이죠. 추가적으로, 많은 잠재적인 훌륭한 교과서 저자들은 회사로 들어갔거나 창업하기를 선호하였습니다.
+    
+이런 상황을 고려해 우리는 독학생들이 교과서 보다는 Berkeley의 Joe Hellerstein의 데이터베이스 강의인 [CS186 강의 녹화본](https://www.youtube.com/user/CS186Berkeley/videos)으로 시작한 후 책들을 읽어보기를 추천합니다.
+    
+입문자들에게 추천할만한 책은 관계형 데이터베이스(RDBMS)가 어떻게 동작하는지를 높은 수준으로 풀어낸 "[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)"를 추천합니다. 이는 추후 공부하는데 유용한 뼈대가 될 것 입니다.
+    
+소위 데이터베이스 "[레드북](http://www.redbook.io/)"으로 불리는 *Readings in Database Systems* 은 Peter Bailis, Joe Hellerstein와 Michael Stonebraker가 엮어내고 편집한 컬렉션입니다. CS186의 내용에서 더 심화한 내용을 학습하고 싶다면, 레드북이 바로 다음 스텝입니다.
+    
+만약 꼭 입문 교과서를 보고 싶다면, Ramakrishnan와 Gehrke가 쓴 *[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)* 를 추천합니다. 많은 심화 학생들에게, Jim Gray의 고전 *[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)* 도 가치가 있지만, 입문서로는 추천하지 않습니다.
+
+마지막으로, 데이터 모델링은 데이터베이스로 일할 때 가장 괄시받고 잘 안가르쳐지는 영역입니다. 우리의 추천은 *[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)* 입니다.
 
