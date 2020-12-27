@@ -123,5 +123,5 @@ OSTEP을 다 봤으면, 우리는 "{ㅇㅇ운영체제} 살펴보기" 같은 이
     
 만약 꼭 입문 교과서를 보고 싶다면, Ramakrishnan와 Gehrke가 쓴 *[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)* 를 추천합니다. 많은 심화 학생들에게, Jim Gray의 고전 *[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)* 도 가치가 있지만, 입문서로는 추천하지 않습니다.
 
-마지막으로, 데이터 모델링은 데이터베이스로 일할 때 가장 괄시받고 잘 안가르쳐지는 영역입니다. 우리의 추천은 *[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)* 입니다.
+마지막으로, 데이터 모델링은 데이터베이스로 일할 때 가장 괄시받고 대충 는 영역입니다. 우리의 추천은 *[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)* 입니다.
 
