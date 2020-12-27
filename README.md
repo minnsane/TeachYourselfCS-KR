@@ -107,7 +107,7 @@ OSTEP을 다 봤으면, 우리는 "{ㅇㅇ운영체제} 살펴보기" 같은 이
     
 운영체제에 대한 이해를 정리하는 가장 좋은 방법은 작은 커널의 코드를 읽어보고 기능을 더해보는 것입니다. 그 중 [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html)는 ANSI C와 x86의 Unix V6 포트로, MIT 강의를 위해 유지되고 있습니다. OSTEP은 추후 프로젝트를 위한 엄청난 아이디어로 가득찬 [xv6 연구](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf)를 부록으로 실었습니다.
     
-*** 컴퓨터 네트워킹
+### 컴퓨터 네트워킹
 많은 소프트웨어 엔지니어링이 웹서버와 클라이언트에 있다는 것을 고려하면, 당장 가장 가치있는 컴퓨터과학 중 하나는 컴퓨터 네트워킹입니다. 네트워크를 체계적으로 공부한 독학생들은 수년간 들어왔던 용어, 개념과 프로토콜을 드디어 이해할 수 있을겁니다.
     
 우리가 가장 좋아하는 책은 *[Computer Networking: A Top-Down Approach(번역본: 컴퓨터 네트워킹 하향식 접근)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)* 입니다. 이 책의 미니 프로젝트들과 문제풀이는 해볼 가치가 있고, 책에서 온라인에 제공한 ["Wireshark labs"](http://www-net.cs.umass.edu/wireshark-labs/)가 특히 좋습니다.
